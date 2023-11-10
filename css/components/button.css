@@ -1,0 +1,26 @@
+.btn-bleu {
+    display: inline-block;
+    background-color: gris;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.photo-gallery .more-photos-btn {
+    text-decoration: none; /* 去掉下划线 */
+    background-color: whitesmoke; /* 背景颜色 */
+    color: gray; /* 文字颜色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid transparent;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 30px;
+}
+
+.btn-bleu:hover, .photo-gallery .more-photos-btn:hover {
+    background-color: #0056b3;
+}
